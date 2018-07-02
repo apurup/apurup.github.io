@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Portifolio</title>
     <style>
-        body{
+        html,body{
             width: 100%;
+            padding: 0;
+            margin: 0;
         }
         .container{
             display: flex;
@@ -17,6 +19,7 @@
             height: 100vh;
         }
         .toolbar{
+            position: fixed;
             align-items: center;
             display: flex;
             flex-direction: row-reverse;
@@ -81,13 +84,12 @@
 </head>
 <body>
     <div class="container">
-        <header>
             <div class="toolbar">
                 <button class="button">Skills</button>
                 <button class="button">Projects</button>
                 <button class="button">About</button>
             </div>
-        </header>
+
 
         <div class="banner">
             <h1 class="heading">I am Apurup</h1>
