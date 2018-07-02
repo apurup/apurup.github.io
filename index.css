@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: #3af3ff;
+    width: 100%;
+    height: 100vh;
+}
+.toolbar{
+    position: fixed;
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 7vh;
+    background: white;
+
+}
+.button{
+    margin-right: 2vw;
+    display: flex;
+    color: lightblue;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    background: none;
+
+}
+
+.button:hover{
+    color: #2cccff;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.button:active{
+    color: #2cccff;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.banner{
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    align-self: center;
+    flex-direction: column;
+    display: flex;
+
+}
+.heading{
+    align-self: center;
+    flex-direction: column;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 4rem;
+    margin-top: 4vw;
+    color: white;
+
+}
+.heading2{
+    margin: 0;
+    align-self: center;
+    flex-direction: column;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: white;
+}
+.image{
+    display: flex;
+    align-items: center;
+    margin: 20vh auto 0;
+
+}
+.profile_image{
+    align-self: auto;
+    width: 20vw;
+    height: 20vw;
+}
+@media only screen and (max-width: 768px){
+    .heading{
+        font-size: 3rem;
+        margin-top: 4vw;
+    }
+
+    .profile_image{
+        align-self: auto;
+        width: 40vw;
+        height: 40vw;
+    }
+}
+@media only screen and (max-height: 415px){
+    .heading{
+        font-size: 2rem;
+
+    }
+    .toolbar{
+        height: 10vh;
+    }
+    .profile_image{
+        align-self: auto;
+        width: 20vw;
+        height: 20vw;
+    }
+}
+
+
+h1{
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+p {
+    display: block;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
