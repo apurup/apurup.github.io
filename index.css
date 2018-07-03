@@ -214,11 +214,16 @@ root{
         font-size: 3rem;
         margin-top: 4vw;
     }
+    .intro_div{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
     .hai_heading{
         font-size: 2rem;
     }
     .intro_heading{
         font-size: 1.5rem;
+        text-align: center;
     }
 
     .pros_cons_heading_style{
