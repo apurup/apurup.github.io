@@ -233,16 +233,16 @@ root{
         flex-direction: column;
     }
     .pros_div{
-        width: 40vw;
-        height: 50vw;
+        width: 90vw;
+        height: 70vw;
         margin-top: 1vw;
         margin-left: 4vw;
         margin-bottom: 4vw;
     }
     .cons_div{
         order: 1;
-        width:40vw;
-        height: 50vw;
+        width: 90vw;
+        height: 70vw;
         margin-top: 1vw;
         margin-bottom: 4vw;
         align-self: center;
