@@ -5,26 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
     <title>Portifolio</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        function showAbout() {
+            document.getElementById('aboutDiv').scrollIntoView();
+        }
+    </script>
 </head>
 <body>
     <div class="container">
-        <div class="toolbar">
-            <button class="button">Skills</button>
-            <button class="button">Projects</button>
-            <button class="button">About</button>
+        <div class="welcome">
+            <div class="toolbar">
+                <button class="button">Skills</button>
+                <button class="button">Projects</button>
+                <button class="button" onclick="showAbout()">About</button>
+            </div>
+            <div class="image">
+                <img class="profile_image" src="my_pic.jpg">
+            </div>
+            <div class="banner">
+
+                <h1 class="heading">I'm Apurup</h1>
+                <p class="heading2">a mean stack developer</p>
+                <!--<img class = "img" src="my_pic.jpg">-->
+
+            </div>
         </div>
-        <div class="image">
-            <img class="profile_image" src="my_pic.jpg">
-        </div>
-        <div class="banner">
-
-            <h1 class="heading">I am Apurup</h1>
-            <p class="heading2">a mean stack developer</p>
-
-
-            <!--<img class = "img" src="my_pic.jpg">-->
-
-
+        <div id="aboutDiv" class="about_container"  >
+                <div class = "about_heading">
+                    <h1 class="hai_heading">Hi</h1>
+                </div>
+                <div class="intro_div">
+                    <p class="intro_heading">I'm a web designer / developer based in India.<br>
+                        I have a passion for web design and <br>love to create for web and mobile devices.</p>
+                </div>
         </div>
 
     </div>
