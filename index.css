@@ -213,22 +213,17 @@ li{
     .habbits_div{
         order: 2;
         width: 90vw;
-        margin-top: 1vw;
-        margin-bottom: 4vw;
+        margin-top: 10vw;
         align-self: center;
     }
     .pros_div{
         width: 90vw;
-        margin-top: 1vw;
-        margin-left: 4vw;
-        margin-bottom: 4vw;
+        margin-top: 10vw;
     }
     .cons_div{
         order: 1;
         width: 90vw;
-        margin-top: 1vw;
-        margin-bottom: 4vw;
-        align-self: center;
+        margin-top: 10vw;
 
     }
 
@@ -266,24 +261,19 @@ li{
     .habbits_div{
         order: 2;
         width: 90vw;
-
-        margin-top: 1vw;
-        margin-bottom: 4vw;
+        margin-top: 10vw;
         align-self: center;
     }
     .pros_div{
         width: 90vw;
+        align-self: center;
+        margin-top: 11vw;
 
-        margin-top: 1vw;
-        margin-left: 4vw;
-        margin-bottom: 4vw;
     }
     .cons_div{
         order: 1;
         width: 90vw;
-
-        margin-top: 1vw;
-        margin-bottom: 4vw;
+        margin-top: 10vw;
         align-self: center;
 
     }
