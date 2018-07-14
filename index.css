@@ -66,6 +66,7 @@ root{
     font-family: cursive;
     font-weight: lighter;
     font-size: 4rem;
+    text-align: center;
     margin-top: 4vw;
     color: white;
 
@@ -76,6 +77,7 @@ root{
     flex-direction: column;
     font-family: cursive;
     font-weight: lighter;
+    text-align: center;
     font-size: 2rem;
     color: white;
 }
@@ -144,7 +146,7 @@ root{
     border: 0.2vh solid #2cccff;
     box-shadow: 0.5vw -0.5vw 4vw  #3af3ff;
     width: 20vw;
-    min-height: 20vw;
+    min-height: 25vw;
 
 
 }
@@ -167,7 +169,6 @@ root{
     align-self: center;
     align-items: center;
     width: 100%;
-    height: 12%;
     background: #2cccff;
 }
 
@@ -182,8 +183,9 @@ root{
 
 .pros_cons_div_text{
     padding-right: 1vw;
-    font-family: Roboto, serif;
-    font-weight: bolder;
+    font-size: 1.4rem;
+    font-family: monospace;
+    font-weight: lighter;
     color: #6a635e;
     word-spacing: 0.5vw;
 
@@ -251,7 +253,9 @@ li{
         font-size: 1.5rem;
         text-align: center;
     }
+    .pros_cons_habbits_div_heading{
 
+    }
     .pros_cons_habbits_heading_style{
         font-size: 1rem;
     }
@@ -267,7 +271,7 @@ li{
     .pros_div{
         width: 90vw;
         align-self: center;
-        margin-top: 11vw;
+        margin-top: 10vw;
 
     }
     .cons_div{
@@ -297,27 +301,27 @@ li{
     }
     .habbits_div{
         order: 2;
-        width: 60vw;
+        width: 80vw;
         margin-top: 1vw;
         margin-bottom: 4vw;
         align-self: center;
     }
     .pros_div{
-        width: 60vw;
+        width: 80vw;
         margin-top: 1vw;
         margin-left: 4vw;
         margin-bottom: 4vw;
     }
     .cons_div{
         order: 1;
-        width: 60vw;
+        width: 80vw;
         margin-top: 1vw;
         margin-bottom: 4vw;
         align-self: center;
 
     }
 }
-@media only screen and (min-width: 700px) and (max-width: 1025px){
+@media only screen and (min-width: 700px) and (max-width: 1299px){
     .heading{
         font-size: 4rem;
         margin-top: 4vw;
@@ -331,15 +335,15 @@ li{
     }
     .pros_div{
         width: 30vw;
-        min-height: 40vw;
+        min-height: 20vw;
     }
     .cons_div{
         width: 30vw;
-        min-height: 40vw;
+        min-height: 20vw;
     }
     .habbits_div{
         width: 30vw;
-        min-height: 40vw;
+        min-height: 20vw;
     }
     .button{
         font-size: 1.4rem;
@@ -371,10 +375,23 @@ li{
         height: 20vw;
     }
     .pros_cons_div_text{
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
     .pros_cons_habbits_heading_style{
         font-size: 2rem;
+    }
+
+    .pros_div{
+        width: 30vw;
+        min-height: 20vw;
+    }
+    .cons_div{
+        width: 30vw;
+        min-height: 20vw;
+    }
+    .habbits_div{
+        width: 30vw;
+        min-height: 20vw;
     }
 }
 
