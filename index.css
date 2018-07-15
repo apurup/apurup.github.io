@@ -200,6 +200,66 @@ root{
 li{
     margin-bottom: 1vw;
 }
+
+.project_div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background: #3af3ff;
+}
+
+.project_intro{
+
+
+    font-family: monospace;
+    font-size: 4rem;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+}
+.project_heading{
+    margin: auto;
+    font-family:Chalkboard, cursive;
+    font-size: 3em;
+    color: white;
+
+}
+
+.skills_div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    background: #f9f2ec;
+}
+
+.skills_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 4vw;
+}
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    border: 0.2vh solid #2cccff;
+    box-shadow: 0.5vw -0.5vw 4vw  #3af3ff;
+    width: 20vw;
+    padding: unset;
+    margin-top: 5vw;
+    margin-left: 10vw;
+    min-height: 20vw;
+}
+
+.img_java{
+    align-self: center;
+    width:20vw;
+    height: 20vw;
+
+}
 @media only screen and (max-width: 320px){
     .heading{
         font-size: 3rem;
@@ -242,6 +302,21 @@ li{
         align-self: auto;
         width: 50vw;
         height: 50vw;
+    }
+    .skills_container{
+        flex-direction: column;
+    }
+    .skill{
+        align-self: center;
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .project_intro{
+        font-size: 3rem;
+    }
+    .project_heading{
+        font-size: 2rem;
     }
 }
 @media only screen and (min-width: 321px) and (max-width: 480px){
@@ -294,6 +369,27 @@ li{
         width: 50vw;
         height: 50vw;
     }
+    .skills_container{
+        flex-direction: row;
+    }
+    .skill{
+        align-self: center;
+        width: 40vw;
+        height: 40vw;
+        margin-left: 6vw;
+    }
+
+    .img_java{
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .project_intro{
+        font-size: 1.5rem;
+    }
+    .project_heading{
+        font-size: 2rem;
+    }
 
 }
 @media only screen and (min-width: 481px) and (max-width: 699px) {
@@ -306,6 +402,9 @@ li{
 
     .pros_cons_div{
         flex-direction: column;
+    }
+    .hai_heading{
+        font-size: 3rem;
     }
     .habbits_div{
         order: 2;
@@ -327,6 +426,28 @@ li{
         margin-bottom: 4vw;
         align-self: center;
 
+    }
+
+    .skills_container{
+        flex-direction: row;
+    }
+    .skill{
+        align-self: start;
+        width: 20vw;
+        height: 20vw;
+        margin-left: 10vw;
+    }
+
+    .img_java{
+        width: 20vw;
+        height: 20vw;
+    }
+
+    .project_intro{
+        font-size: 2rem;
+    }
+    .project_heading{
+        font-size: 3rem;
     }
 }
 @media only screen and (min-width: 700px) and (max-width: 1299px){
@@ -371,6 +492,13 @@ li{
     .pros_cons_div_text{
         font-size: 1.3em;
     }
+
+    .project_intro{
+        font-size: 2rem;
+    }
+    .project_heading{
+        font-size: 3rem;
+    }
 }
 @media only screen and (min-width: 1300px) and (max-width: 1500px) {
     .heading{
@@ -389,7 +517,7 @@ li{
         height: 20vw;
     }
     .pros_cons_div_text{
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     .pros_cons_habbits_heading_style{
         font-size: 2rem;

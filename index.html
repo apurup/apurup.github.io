@@ -9,14 +9,20 @@
         function showAbout() {
             document.getElementById('aboutDiv').scrollIntoView();
         }
+        function showProjects() {
+            document.getElementById('projectsDiv').scrollIntoView();
+        }
+        function showSkills() {
+            document.getElementById('skillsDiv').scrollIntoView();
+        }
     </script>
 </head>
 <body>
     <div class="container">
         <div class="welcome">
             <div class="toolbar">
-                <button class="button">Skills</button>
-                <button class="button">Projects</button>
+                <button class="button" onclick="showSkills()">Skills</button>
+                <button class="button" onclick="showProjects()">Projects</button>
                 <button class="button" onclick="showAbout()">About</button>
             </div>
             <div class="image">
@@ -77,6 +83,40 @@
                         </div>
                     </div>
                 </div>
+        </div>
+        <div id = "projectsDiv" class="project_div">
+            <div class="project_heading">
+                <h4>MY PROJECTS</h4>
+            </div>
+            <div class="intro_div">
+                <p class="project_intro">"This portifolio is my first project"</p>
+            </div>
+        </div>
+        <div id="skillsDiv" class="skills_div">
+            <div class="hai_heading">
+                <h4>Skills</h4>
+            </div>
+            <div class="skills_container">
+                <div class="skill">
+                    <img class="img_java" src="java.jpg">
+                </div>
+                <div class="skill">
+                    <img class="img_java" src="html%20&%20css.png">
+                </div>
+                <div class="skill">
+                    <img class="img_java" src="clang.jpg">
+                </div>
+                <div class="skill">
+                    <img class="img_java" src="python.png">
+                </div>
+                <div class="skill">
+                    <img class="img_java" src="php.png">
+                </div>
+                <div class="skill">
+                    <img class="img_java" src="mysql.png">
+                </div>
+            </div>
+
         </div>
 
     </div>
