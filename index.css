@@ -254,7 +254,7 @@ li{
     min-height: 20vw;
 }
 
-.img_java{
+.img_skills{
     align-self: center;
     width:20vw;
     height: 20vw;
@@ -296,15 +296,20 @@ li{
 
     }
 
+    .img_skills{
+        width: 40vw;
+        height: 40vw;
+    }
+
 
 
     .profile_image{
         align-self: auto;
-        width: 50vw;
-        height: 50vw;
+        width: 60vw;
+        height: 60vw;
     }
     .skills_container{
-        flex-direction: column;
+        flex-direction: row;
     }
     .skill{
         align-self: center;
@@ -312,8 +317,15 @@ li{
         margin-left: 0;
     }
 
+    .skill{
+        align-self: center;
+        width: 40vw;
+        height: 40vw;
+        margin-left: 6vw;
+    }
+
     .project_intro{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .project_heading{
         font-size: 2rem;
@@ -379,7 +391,7 @@ li{
         margin-left: 6vw;
     }
 
-    .img_java{
+    .img_skills{
         width: 40vw;
         height: 40vw;
     }
@@ -438,7 +450,7 @@ li{
         margin-left: 10vw;
     }
 
-    .img_java{
+    .img_skills{
         width: 20vw;
         height: 20vw;
     }
@@ -486,8 +498,8 @@ li{
 
     .profile_image{
         align-self: auto;
-        width: 20vw;
-        height: 20vw;
+        width: 25vw;
+        height: 25vw;
     }
     .pros_cons_div_text{
         font-size: 1.3em;
@@ -550,19 +562,38 @@ li{
     }
     .profile_image{
         align-self: auto;
-        width: 20vw;
-        height: 20vw;
+        width: 24vw;
+        height: 24vw;
+    }
+    .heading{
+        font-size: 2rem;
+        margin-top: 4vw;
+    }
+    .intro_heading{
+        font-size: 1.4rem;
+
+    }
+
+    .heading2{
+        font-size: 1.4rem;
+    }
+
+    .project_intro{
+        font-size: 1.4rem;
+    }
+    .project_heading{
+        font-size: 2rem;
     }
 
 }
 
-@media only screen and (min-height: 1025px) and (max-height: 1366px) {
+@media only screen and (min-height: 1023px) and (max-height: 1366px) {
     .heading{
         font-size: 4rem;
 
     }
     .button{
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .toolbar{
         height: 7vh;
@@ -572,11 +603,49 @@ li{
         width: 40vw;
         height: 40vw;
     }
+    .hai_heading{
+        font-size: 6rem;
+    }
+    .intro_heading{
+        font-size: 2.5rem;
+
+    }
     .pros_cons_div_text{
-        font-size: 1.5rem;
+        font-size: 2.5rem;
     }
     .pros_cons_habbits_heading_style{
-        font-size: 2rem;
+        font-size: 2.5rem;
+    }
+
+    .pros_cons_div{
+        flex-direction: column;
+    }
+    .habbits_div{
+        order: 2;
+        width: 80vw;
+        margin-top: 1vw;
+        margin-bottom: 4vw;
+        align-self: center;
+    }
+    .pros_div{
+        width: 80vw;
+        margin-top: 1vw;
+        margin-left: 4vw;
+        margin-bottom: 4vw;
+    }
+    .cons_div{
+        order: 1;
+        width: 80vw;
+        margin-top: 1vw;
+        margin-bottom: 4vw;
+        align-self: center;
+
+    }
+    .project_intro{
+        font-size: 3rem;
+    }
+    .project_heading{
+        font-size: 4rem;
     }
 }
 
