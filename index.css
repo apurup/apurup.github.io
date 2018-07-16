@@ -549,6 +549,8 @@ li{
     }
 }
 
+
+
 @media only screen and (max-height: 415px){
     .heading{
         font-size: 2rem;
@@ -649,6 +651,49 @@ li{
     }
 }
 
+@media only screen and (min-width: 1501px) and (max-width: 2700px) {
+    .heading{
+        font-size: 5rem;
+
+    }
+    .hai_heading{
+        font-size: 6rem;
+    }
+    .intro_heading{
+        font-size: 2.5rem;
+
+    }
+    .button{
+        font-size: 2rem;
+    }
+    .toolbar{
+        height: 7vh;
+    }
+    .profile_image{
+        align-self: auto;
+        width: 20vw;
+        height: 20vw;
+    }
+    .pros_cons_div_text{
+        font-size: 3rem;
+    }
+    .pros_cons_habbits_heading_style{
+        font-size: 4rem;
+    }
+
+    .pros_div{
+        width: 30vw;
+        min-height: 20vw;
+    }
+    .cons_div{
+        width: 30vw;
+        min-height: 20vw;
+    }
+    .habbits_div{
+        width: 30vw;
+        min-height: 20vw;
+    }
+}
 
 h1{
     display: block;
